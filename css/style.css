@@ -1,11 +1,16 @@
 body {
 	font-family: 'Prompt', sans-serif;
 	padding-top: 20px;
+	
 }
+
 
 .well {
 	text-align: center;
-	min-height: 400px;
+	min-height: 350px;
+	margin-left: 1%;
+	margin-right: 1%;
+	width:23%;
 	}
 
 #jumbohead {
@@ -21,7 +26,7 @@ body {
 }
 
 h2 {
-	font-size: 17px;
+	font-size: 15px;
 }
 
 
@@ -46,4 +51,14 @@ a:hover {
 .linkdiv {
 	height: 120px;
 }
+
+#bottomleft {
+	margin-left: 13.5%; 
+
+}
+
+#bottomright {
+	margin-right: 13.5%;
+}
+
 
