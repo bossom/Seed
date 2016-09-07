@@ -7,7 +7,7 @@ var fs      = require('fs');
 /**
  *  Define the sample application.
  */
-var SampleApp = function() {
+var App = function() {
 
     //  Scope.
     var self = this;
@@ -153,7 +153,14 @@ var SampleApp = function() {
 /**
  *  main():  Main code.
  */
-var zapp = new SampleApp();
-zapp.initialize();
+var app = new SampleApp();
+app.initialize();
+//QUICK FIX! change this later..
+app.use(express.static('js'));
+app.use(express.static('img'));
+app.use(express.static('css'));
+app.use(express.static('fonts'));
+//----
+
 zapp.start();
 
