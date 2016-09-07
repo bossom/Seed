@@ -1,0 +1,64 @@
+body {
+	font-family: 'Prompt', sans-serif;
+	padding-top: 20px;
+	
+}
+
+
+.well {
+	text-align: center;
+	min-height: 350px;
+	margin-left: 1%;
+	margin-right: 1%;
+	width:23%;
+	}
+
+#jumbohead {
+	font-size: 100px;
+	color: #009688;
+	text-align: right;
+}
+
+#jumbohead2 {
+	font-size: 50px;
+	color: #009688;
+	text-align: right;
+}
+
+h2 {
+	font-size: 15px;
+}
+
+
+a {
+
+	color: #009688;
+
+}
+
+a:hover {
+	color: #005D53;
+}
+
+.imgdiv {
+	margin-left: 15%;
+	margin-bottom: 15%;
+	width: 70%;
+	margin-top: 15%;
+
+}
+
+.linkdiv {
+	height: 120px;
+}
+
+#bottomleft {
+	margin-left: 13.5%; 
+
+}
+
+#bottomright {
+	margin-right: 13.5%;
+}
+
+
