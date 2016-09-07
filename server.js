@@ -3,14 +3,17 @@
 var express = require('express');
 var app = express();
 var http = require('http').Server(app);
-var io = require('socket.io')(http);
 
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/index.html');
 });
 
 app.use('/js', express.static('js'));
+app.use('/css', express.static('css'));
+app.use('/fonts', express.static('fonts'));
+app.use('/img', express.static('img'));
 
-http.listen(8080, function(){
+
+http.listen(3000, function(){
     console.log('listening on *:8080');
 });
