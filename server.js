@@ -153,7 +153,7 @@ var App = function() {
 /**
  *  main():  Main code.
  */
-var app = new SampleApp();
+var app = new App();
 app.initialize();
 //QUICK FIX! change this later..
 app.use(express.static('js'));
