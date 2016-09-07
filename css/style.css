@@ -1,0 +1,40 @@
+body {
+	font-family: 'Prompt', sans-serif;
+	padding-top: 20px;
+}
+
+.well {
+	text-align: center;
+	height: 300px;
+	}
+
+#jumbohead {
+	font-size: 100px;
+	color: #009688;
+	text-align: right;
+}
+
+#jumbohead2 {
+	font-size: 50px;
+	color: #009688;
+	text-align: right;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 15px;
+}
+
+a {
+	color: #009688;
+
+}
+
+a:hover {
+	color: #005D53;
+}
+
+
