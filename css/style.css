@@ -5,7 +5,7 @@ body {
 
 .well {
 	text-align: center;
-	height: 300px;
+	height: 400px;
 	}
 
 #jumbohead {
@@ -21,14 +21,12 @@ body {
 }
 
 h2 {
-	font-size: 20px;
+	font-size: 17px;
 }
 
-h3 {
-	font-size: 15px;
-}
 
 a {
+
 	color: #009688;
 
 }
@@ -37,4 +35,15 @@ a:hover {
 	color: #005D53;
 }
 
+.imgdiv {
+	margin-left: 15%;
+	margin-bottom: 15%;
+	width: 70%;
+	margin-top: 15%;
+
+}
+
+.linkdiv {
+	height: 120px;
+}
 
