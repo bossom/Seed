@@ -13,17 +13,6 @@ body {
 	width:23%;
 	}
 
-#jumbohead {
-	font-size: 100px;
-	color: #009688;
-	text-align: right;
-}
-
-#jumbohead2 {
-	font-size: 50px;
-	color: #009688;
-	text-align: right;
-}
 
 h2 {
 	font-size: 15px;
@@ -32,12 +21,12 @@ h2 {
 
 a {
 
-	color: #009688;
+	color: #007740;
 
 }
 
 a:hover {
-	color: #005D53;
+	color: #005F34;
 }
 
 .imgdiv {
@@ -52,13 +41,5 @@ a:hover {
 	height: 120px;
 }
 
-#bottomleft {
-	margin-left: 13.5%; 
-
-}
-
-#bottomright {
-	margin-right: 13.5%;
-}
 
 
