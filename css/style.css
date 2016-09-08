@@ -1,11 +1,18 @@
 body {
 	font-family: 'Prompt', sans-serif;
-	padding-top: 20px;
-	
+	padding-top: 70px; 
 }
 
+.navbar-fixed-top {
+	height: 50px	;
+}
 
-.well {
+.textarea {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.wellsm {
 	text-align: center;
 	min-height: 350px;
 	margin-left: 1%;
@@ -13,6 +20,13 @@ body {
 	width:23%;
 	}
 
+.well-lg {
+	height: 600px;
+}
+
+.container {
+	margin-bottom: 50px;
+}
 
 h2 {
 	font-size: 15px;
@@ -41,5 +55,26 @@ a:hover {
 	height: 120px;
 }
 
+.navbar-footer {
+	height: 150px;
+	margin-bottom: 0px;
 
+
+}
+
+#footerimage {
+	position: absolute;
+	right: 0px;
+	height: 150px;
+}
+
+.footdiv {
+    position: relative;
+}
+
+.footdiv-content {
+   position: absolute;
+   bottom: -150px;
+ 
+}
 
