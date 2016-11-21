@@ -33,6 +33,7 @@ body {
 .new-well {
     min-height: 357px;
     max-width: 345px;  
+    position: relative;
 }
 
 .well-lg {
@@ -59,9 +60,10 @@ a:hover {
 }
 
 .imgdiv {
-    margin-bottom: 15%;
-    width: 70%;
-    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 80%;
+    bottom: 20px;
+    position: absolute;
 
 }
 
@@ -86,6 +88,8 @@ a:hover {
     left:10px;
 
 }
+
+
 
 @media screen and (max-width: 766px) {
     .textarea {
